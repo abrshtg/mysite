@@ -1,4 +1,29 @@
-.idea
+# Django-related
+*.log
+*.pot
+*.pyc
+*.py[cod]
+__pycache__/
 db.sqlite3
-__pycache__
-.env
+*.sqlite3
+/media/
+*.pyo
+*.env
+
+# Django migrations
+**/migrations/
+**/migrations/*.py
+**/migrations/*.pyc
+
+# IDE-related
+.idea/
+.vscode/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Linux
+*~
